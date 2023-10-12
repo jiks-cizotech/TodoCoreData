@@ -54,7 +54,7 @@ struct HomeView: View {
                     ToolbarItem(placement: .topBarTrailing){
                         Button{
                             print("add task View")
-                            showAddTaskView = false
+                            showAddTaskView = true
                             
                         } label: {
                             Image(systemName: "plus")
